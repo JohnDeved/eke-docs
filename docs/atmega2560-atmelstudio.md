@@ -13,11 +13,11 @@ Folgender Dialog wird geöffnet:
 
 ![New project dialog](https://i.imgur.com/6KzC0er.png)
 
-`Name:` - Name des Projektes
+*Name:* - Name des Projektes
 
-`Location:` - Lokaler Speicherpfad
+*Location:* - Lokaler Speicherpfad
 
-`Solution name:` - Name der Solution (Solution = Container in dem mehrere Projekte gespeichert werden können)
+*Solution name:* - Name der Solution (Solution = Container in dem mehrere Projekte gespeichert werden können)
 
 Anschließend wird der verwendete Controller ausgewählt: (Atmega2560)
 
@@ -39,6 +39,6 @@ Anschließend wird folgender Dialog geöffnet:
 
 ![add target](https://i.imgur.com/TDYUFp9.png)
 
-`Select Tool:` Bei Verwendung des myAVR.de USB-ISP programmers `STK500` auswählen
+*Select Tool:* Bei Verwendung des myAVR.de USB-ISP programmers `STK500` auswählen
 
-`Select Serial Port:` Verwendeten COM Port angeben
+*Select Serial Port:* Verwendeten COM Port angeben
