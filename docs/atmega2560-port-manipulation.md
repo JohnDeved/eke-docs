@@ -16,9 +16,8 @@ Ein Array von 8 Pins die logisch zu einem Port zusammengefasst werden. Da der At
 
 ![PORTF](https://i.imgur.com/Mf3BDdw.png)
 
-Zuerst muss das Datenrichtungsregister auf Ausgang gesetzt werden. 
-
-Um einen Ausgang high oder low zu schalten ist das entsprechende Bit zu setzen.
+Um auf einzelne Pins oder auf einen ganzen Port etwas zu schreiben müssen zuerst die jeweiligen Pins im Datenrichtungsregister auf Ausgang gesetzt werden.
+Danach kann auf einem Port 0 oder 1 geschaltet werden indem das entsprechende Bit gesetzt wird.
 
 ```c
 PORTA = 0xFF; // PORTA - alle Ausgänge auf 1 setzen
