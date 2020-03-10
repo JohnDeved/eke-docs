@@ -22,7 +22,7 @@ Um einen Ausgang high oder low zu schalten ist das entsprechende Bit zu setzen.
 
 ```c
 PORTA = 0xFF; // PORTA - alle Ausgänge auf 1 setzen
-PORTA = 0xF0; // PORTB - 4 Bits auf 1 setzen; 4 Bits auf 0 setzen
+PORTB = 0xF0; // PORTB - 4 Bits auf 1 setzen; 4 Bits auf 0 setzen
 ```
 
 ## Datenrichtungsregister
