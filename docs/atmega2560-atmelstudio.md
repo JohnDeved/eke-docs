@@ -23,7 +23,7 @@ Anschließend wird der verwendete Controller ausgewählt: (Atmega2560)
 
 ![Device selection](https://i.imgur.com/QOO60cB.png)
 
-Bei Bestätigung des Dialogs wird das Projekt erstellt.
+Bei der Bestätigung des Dialogs wird das Projekt erstellt.
 
 ![Project creation](https://i.imgur.com/Lec9p4e.png)
 
