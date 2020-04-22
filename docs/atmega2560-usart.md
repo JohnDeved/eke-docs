@@ -40,7 +40,7 @@ void uart_putc(unsigned char c) {
 ## Daten Empfangen
 ### UART initialisieren
 
-```c++
+```cpp
 UBRRH = UBRR_VAL >> 8;
 UBRRL = UBRR_VAL & 0xFF;
 
@@ -49,7 +49,7 @@ UCSR0C = (1<<UCSZ01)|(1<<UCSZ00);   //Frame Format auf Asynchron 8N1 setzen
 ```
 
 ###Zeichen Empfangen Funktion
-```c++
+```cpp
 uint8_t uart_getc(void) {
     while (!(UCSRA & (1<<RXC))) {}        // Warten bis Daten auf UDR
     return UDR:                           // Empfangene Daten Zurückgeben
