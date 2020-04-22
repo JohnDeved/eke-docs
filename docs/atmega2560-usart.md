@@ -48,7 +48,7 @@ UCSRB |= (1<<RXEN);                 //Receiver Enable bit setzen um Daten zu emp
 UCSR0C = (1<<UCSZ01)|(1<<UCSZ00);   //Frame Format auf Asynchron 8N1 setzen
 ```
 
-###Zeichen Empfangen Funktion
+### Zeichen Empfangen Funktion
 ```cpp
 uint8_t uart_getc(void) {
     while (!(UCSRA & (1<<RXC))) {}        // Warten bis Daten auf UDR
