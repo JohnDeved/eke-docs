@@ -23,14 +23,14 @@ menu: Atmega 2560
 ## Daten Senden    
 ### UART initialisieren
 
-```c++
+```cpp
 UCSRB |= (1<<TXEN);                 //Transmitter Enable bit setzen um Daten zu empfangen
 UCSR0C = (1<<UCSZ01)|(1<<UCSZ00);   //Frame Format auf Asynchron 8N1 setzen
 ```
 
 ### Zeichen Senden Funktion
 
-```c++
+```cpp
 void uart_putc(unsigned char c) {
     while (!(UCSRA & (1<<UDRE))) {}    // Warten bis UDR Frei is
     UDR = c;                           // schreibt den char auf die Schnittstelle
