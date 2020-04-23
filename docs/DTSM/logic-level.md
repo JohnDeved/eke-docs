@@ -1,4 +1,0 @@
----
-name: Logikpegel
-menu: DTSM
----
